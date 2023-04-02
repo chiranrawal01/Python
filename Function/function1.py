@@ -88,3 +88,29 @@ if(op=="+"):
     print(sum) 
 
 sum(1,2,3,4,5,6,7,8,9,10) '''   
+
+'''
+def factorial (num):
+    if(num==1 or num ==0):
+        return 1
+    return num*factorial(num-1)
+print(factorial(5))
+'''
+
+x = lambda a :a**3
+print(x(5))
+def cube (num):
+    return num**3
+
+# Tic Tac Toe
+# Create board
+# Create players
+# Check for play turn
+# Check board empty or not
+# Define win condition
+
+
+    
+    
+
+        
